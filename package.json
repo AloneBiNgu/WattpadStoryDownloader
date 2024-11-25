@@ -1,0 +1,32 @@
+{
+  "name": "wattpad",
+  "version": "1.0.0",
+  "description": "Just a tool",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tool"
+  ],
+  "author": "Jacky",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "axios-retry": "^4.5.0",
+    "cheerio": "^1.0.0",
+    "p-limit": "^6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AloneBiNgu/WattpadStoryDownloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AloneBiNgu/WattpadStoryDownloader/issues"
+  },
+  "homepage": "https://github.com/AloneBiNgu/WattpadStoryDownloader#readme"
+}
